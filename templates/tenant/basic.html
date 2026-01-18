@@ -361,7 +361,7 @@
     <div class="main-menu menu-fixed menu-light menu-accordion menu-shadow" data-scroll-to-active="true">
         <div class="navbar-header">
             <ul class="nav navbar-nav flex-row">
-                <img src="{% static 'app-assets/images/misu_logo/logo2.png' %}" width="100px" height="60px">
+                {% comment %} <img src="{% static 'app-assets/images/misu_logo/logo2.png' %}" width="100px" height="60px"> {% endcomment %}
                 {% comment %} <li class="nav-item me-auto"><a class="navbar-brand" href="{% url 'customadmin:home' %}"><span class="brand-logo"> {% endcomment %}
                     <li class="nav-item me-auto"><a class="navbar-brand" href="#"><span class="brand-logo">
                             {% comment %} <svg viewbox="0 0 139 95" version="1.1" xmlns="http://127.0.0.1:8000/static/app-assets/images/ticketing_logo/LOGO.png" xmlns:xlink="http://127.0.0.1:8000/static/app-assets/images/ticketing_logo/LOGO.png" height="24">
@@ -387,9 +387,9 @@
                                     </g>
                                 </g>
                             </svg> {% endcomment %}
-                            {% comment %} <img src="{% static 'images/ticketing_logo11/LOGO.png' %}">
+                            {% comment %} <img src="{% static 'images/ticketing_logo11/LOGO.png' %}">{% endcomment %}
                         </span>
-                        {% comment %} <h2 class="brand-text">Vuexy</h2> {% endcomment %}
+                        <h2 class="brand-text">Aquince Accommodation</h2>
                     </a></li>
                 <li class="nav-item nav-toggle"><a class="nav-link modern-nav-toggle pe-0" data-bs-toggle="collapse"><i class="d-block d-xl-none text-primary toggle-icon font-medium-4" data-feather="x"></i><i class="d-none d-xl-block collapse-toggle-icon font-medium-4  text-primary" data-feather="disc" data-ticon="disc"></i></a></li>
             </ul>
